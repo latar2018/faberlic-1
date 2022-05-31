@@ -1,0 +1,58 @@
+.footer {
+	background: #F6ABD1;
+	padding: 10.556em 0 12.556em;
+	z-index: 0;
+	&__inner {
+		text-align: center;
+	}
+
+	&__content {
+	}
+
+	&__content-title {
+		font-weight: bold;
+		font-size: 1.667em;
+		line-height: 150%;
+		color: #000000;
+		margin-bottom: .667em;
+	}
+
+	&__content-text {
+		font-size: 1.333em;
+		line-height: 100%;
+		text-align: center;
+		color: #000000;
+		margin-bottom: .667em;
+	}
+
+	&__content-block {
+		display: flex;
+		justify-content: center;
+	
+	}
+
+	&__content-item {
+		display: flex;
+		margin-right: .5em;
+	}
+
+	&__content-icon {
+		width: 3.889em;
+		height: 3.889em;
+		object-fit: cover;
+		padding: 0.5em;
+	}
+}
+.footer__godzila-1 {
+	width: 34.333em;
+	height: 31.833em;
+  left: -10em;
+	top: 0em;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.footer__godzila-2 {
+	width: 34.333em;
+	height: 31.833em;
+  right: -10em;
+	top: 0em;
+}

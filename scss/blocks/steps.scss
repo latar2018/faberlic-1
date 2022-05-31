@@ -1,0 +1,608 @@
+.step-1 {
+	position: relative;
+	height: 141.667em;
+}
+.steps-img,
+.steps-img-1,
+.steps-img-2 {
+	position: absolute;
+	top: 0;
+	width: 12.778em;
+	height: 100%;
+}
+.steps-img {
+	background: url(../images/step-1/steps.png) center no-repeat, #7939A8;
+	background-size: cover;
+	left: 0;
+}
+.steps-img-1 {
+	background: url(../images/step-1/steps-1.png) center no-repeat, #D71D8C;
+	background-size: cover;
+	right: 0;
+}
+.steps-img-2 {
+	background: url(../images/step-3/steps-2.png) center no-repeat, #01B469;
+	background-size: cover;
+	left: 0;
+}
+
+.step {
+	position: relative;
+	&__inner {
+		margin-left: 12.778em;
+		display: flex;
+		justify-content: space-between;
+		height: 47.222em;
+	}
+
+	&__items {
+		width: 46.778em;
+		background: #FFEA2E;
+		position: relative;
+		height: 100%;
+	}
+	&__items-1 {
+		background: #97FFCF;
+	}
+	&__items-2 {
+		background: #C0F0E3;
+	}
+	&__items-3 {
+		background: #FFBBCC;
+	}
+	&__items-4 {
+		background: #EECBEB;
+	}
+	&__items-5 {
+		background: #A7EFDE;
+	}
+	&__items-6 {
+		background: #FFBED0;
+	}
+	&__items-7 {
+		background: #FADFE0;
+	}
+	&__items-8 {
+		background: #C9EAE1;
+	}
+	&__items-9 {
+		background: #BDFFCC;
+	}
+	&__items-right {
+		width: 47.222em;
+		height: 47.222em;
+		position: relative;
+		overflow: hidden;
+		img {
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	&__item-title {
+		font-size: 3.778em;
+		line-height: 100%;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		opacity: 0.3;
+	}
+
+	&__item-box {
+		margin-top: 4.000em;
+		padding: 0 11.778em 0 8.333em;
+	}
+	&__item-box-2 {
+		margin-top: 5.722em;
+	}
+
+	&__item-block {
+		padding: 0 11.778em 0 8.333em;
+	}
+	&__item-art {
+		font-size: 0.667em;
+		line-height: 120%;
+		color: #000000;
+		margin-bottom: 1.389em;
+	}
+
+	&__item-boxtitle {
+		font-weight: 900;
+		font-size: 2.333em;
+		line-height: 140%;
+		text-transform: uppercase;
+		color: #000000;
+		margin-bottom: .3em;
+	}
+
+	&__item-subtitle {
+		font-weight: bold;
+		font-size: 1.333em;
+		line-height: 160%;
+		color: #000000;
+		margin-bottom: 1em;
+	}
+
+	&__item-text {
+		font-size: 1em;
+		line-height: 160%;
+		color: #000000;
+		margin-bottom: 1.944em;
+	}
+
+	&__items-photo {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+	&__items-bird-1,
+	&__items-bird-2 {
+		background: url(../images/step-1/bird.png) center no-repeat;
+		background-size: cover;
+		position: absolute;
+		
+	}
+	&__items-bird-1 {
+		width: 7.500em;
+		height: 5.389em;
+		left: 3.889em;
+		top: 3.889em;
+		animation: bird 6s linear infinite alternate;
+	}
+	&__items-bird-2 {
+		width: 8.500em;
+		height: 6.289em;
+		left: 5.156em;
+		bottom: 12.222em;
+		animation: bird 3s linear infinite alternate 2s;
+	}
+	&__items-bird-3 {
+		background: url(../images/step-1/bird-1.svg) center no-repeat;
+		background-size: cover;
+		position: absolute;
+		width: 11.056em;
+		height: 7.944em;
+		right: 2.056em;
+		top: 15.944em;
+		animation: bird 3s linear infinite alternate 2s;
+	}
+	&
+	
+	&__items-bottle {
+		position: absolute;
+		left: 20.4em;
+		top: 4.75em;
+		width: 10.256em;
+		height: 37.167em;
+		background: url(../images/step-1/bottle-1.png) center no-repeat;
+		background-size: cover;
+	}
+	&__items-chock,
+	&__items-chock-1,
+	&__items-chock-2,
+	&__items-chock-3,
+	&__items-chock-4,
+	&__items-chock-5,
+	&__items-chock-6,
+	&__items-chock-7,
+	&__items-chock-8,
+	&__items-chock-9 {
+		position: absolute;
+		bottom: 0;
+		left: -27em;
+		width: 98.722em;
+		height: 19.833em;
+		background: url(../images/step-1/step__chock-1.png) center no-repeat;
+		background-size: contain;
+		
+	}
+	&__items-chock {
+		background: url(../images/step-1/step__chock-1.png) center no-repeat;
+	}
+	&__items-chock-1 {
+		background: url(../images/step-1/step__chock-2.png) center no-repeat;
+		bottom: -2em;
+	}
+	&__items-chock-2 {
+		background: url(../images/step-1/step__chock-3.png) center no-repeat;
+	}
+	&__items-chock-3 {
+		background: url(../images/step-1/step__chock-4.png) center no-repeat;
+		left: -26em;
+	}
+	&__items-chock-4 {
+		background: url(../images/step-1/step__chock-5.png) center no-repeat;
+		left: -26em;
+	}
+	&__items-chock-5 {
+		background: url(../images/step-1/step__chock-6.png) center no-repeat;
+		left: -26em;
+	}
+	&__items-chock-6 {
+		background: url(../images/step-1/step__chock-7.png) center no-repeat;
+		left: -26em;
+	}
+	&__items-chock-7 {
+		background: url(../images/step-3/step__chock-8.png) center no-repeat;
+		left: -26em;
+		width: 98.389em;
+		height: 53.722em;
+		bottom: -12em;
+	}
+	&__items-chock-8 {
+		background: url(../images/step-3/step__chock-9.png) center no-repeat;
+		left: -26em;
+		width: 98.389em;
+		height: 53.722em;
+		bottom: -12em;
+	}
+	&__items-chock-9 {
+		background: url(../images/step-3/step__chock-10.png) center no-repeat;
+		left: -26em;
+		width: 98.389em;
+		height: 53.722em;
+		bottom: -12em;
+	}
+	&__item-splashes,
+	&__item-splashes-1 {
+		position: absolute;
+		right: .5em;
+		top: 14em;
+		background: url(../images/step-1/splashes.svg) center no-repeat;
+		background-size: cover;
+		width: 13.667em;
+		height: 9.500em;
+		animation: splashes 3s linear infinite alternate;
+	}
+	&__item-splashes-1 {
+		left: 4em;
+		top: 15em;
+		background: url(../images/step-1/splashes-1.svg) center no-repeat;
+		background-size: cover;
+		width: 13.667em;
+		height: 9.500em;
+	}
+	&__items-bottle-1,
+	&__items-bottle-2,
+	&__items-bottle-3,
+	&__items-bottle-4,
+	&__items-bottle-5,
+	&__items-bottle-6,
+	&__items-bottle-7,
+	&__items-bottle-8,
+	&__items-bottle-9 {
+		background: url(../images/step-1/bottle-2.png) center no-repeat;
+		background-size: cover;
+		width: 12.300em;
+		height: 34em;
+		position: absolute;
+		right: -6em;
+		top: 47%;
+		transform: translate(0,-50%);
+		z-index: 1;
+	}
+	&__items-bottle-2 {
+		background: url(../images/step-1/bottle-3.png) center no-repeat;
+		background-size: cover;
+		width: 14em;
+		height: 30.333em;
+	}
+	&__items-bottle-3 {
+		width: 12.056em;
+		height: 33.333em;
+		background: url(../images/step-1/bottle-4.png) center no-repeat;
+		background-size: cover;
+		left: -6em;
+	}
+	&__items-bottle-4 {
+		width: 20.944em;
+		height: 24.222em;
+		background: url(../images/step-1/bottle-5.png) center no-repeat;
+		background-size: cover;
+		left: -10em;
+	}
+	&__items-bottle-5 {
+		width: 19.667em;
+		height: 15.500em;
+		background: url(../images/step-1/bottle-6.png) center no-repeat;
+		background-size: cover;
+		left: -9em;
+	}
+	&__items-bottle-6 {
+		width: 18.500em;
+		height: 28.389em;
+		background: url(../images/step-1/bottle-7.png) center no-repeat;
+		background-size: cover;
+		left: -9em;
+	}
+	&__items-bottle-7 {
+		width: 19.778em;
+		height: 27.611em;
+		background: url(../images/step-3/bottle.png) center no-repeat;
+		background-size: cover;
+		right: -9em;
+		z-index: 2;
+	}
+	&__items-bottle-8 {
+		width: 31.722em;
+		height: 38.944em;
+		background: url(../images/step-3/bottle-1.png) center no-repeat;
+		background-size: cover;
+		right: -15em;
+		top: 40%;
+		z-index: 2;
+	}
+	&__items-bottle-9 {
+		width: 31.611em;
+		height: 25.667em;
+		background: url(../images/step-3/bottle-2.png) center no-repeat;
+		background-size: cover;
+		right: -19em;
+	}
+}
+@keyframes splashes {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.2);
+	}
+}
+
+@keyframes bird {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(-76deg);
+	}
+	50% {
+		transform: rotate(16deg);
+	}
+}
+
+.step {
+	&__inner-1 {
+		display: flex;
+		justify-content: space-between;
+		height: 47.222em;;
+		margin-right: 12.778em;
+	}
+	&__item-title-1 {
+		text-align: right;
+	}
+	&__item-box-3 {
+		margin-top: 0;
+		padding: 0 6.722em 0 15.167em;
+	}
+	&__item-box-4 {
+		margin-top: 1.1em;
+	}
+	&__item-box-5 {
+		margin-top: 2.222em;
+	}
+	&__item-block-1 {
+		padding-left: 15.167em;
+	}
+	&__items-bottle-3 {
+		position: absolute;
+		width: 12.056em;
+		height: 33.333em;
+		background: url(../images/step-1/bottle-4.png) center no-repeat;
+		background-size: cover;
+		left: -6em;
+		top: 48%;
+		transform: translate(0, -50%);
+	}
+	&__item-kl,
+	&__item-kl-1 {
+		position: absolute;
+		left: -12em;
+		bottom: 5em;
+		width: 20.333em;
+		height: 16.944em;
+		background: url(../images/step-1/kl.svg) center no-repeat;
+		background-size: cover;
+	}
+	&__item-kl-1 {
+		background: url(../images/step-1/kl-1.svg) center no-repeat;
+		background-size: cover;
+		left: -15em;
+		bottom: 9em;
+		width: 13.611em;
+		height: 17.111em;
+	}
+	&__items-birds-1,
+	&__items-birds-2,
+	&__items-birds-3,
+	&__items-birds-4,
+	&__items-birds-5,
+	&__items-birds-6,
+	&__items-birds-7,
+	&__items-birds-8 {
+		position: absolute;
+		background-size: cover;
+		background: url(../images/step-1/step2-bird.svg) center no-repeat;
+		animation: bird 3s linear infinite alternate 2s;
+		z-index: 1;
+	}
+	&__items-birds-1 {
+		width: 3.667em;
+		height: 5.167em;
+		right: 13.778em;
+		top: 4.056em;
+		background-size: cover;
+	}
+	&__items-birds-2 {
+		width: 5.278em;
+		height: 7.444em;
+		right: 8.056em;
+		top: 0em;
+		background-size: cover;
+	}
+	&__items-birds-3 {
+		width: 5.611em;
+		height: 7.944em;
+		top: 0em;
+		right: 0;
+		background-size: cover;
+	}
+	&__items-birds-4 {
+		width: 3.667em;
+		height: 5.167em;
+		background-size: cover;
+		top: 5.389em;
+		right: 2.167em;
+	}
+	&__items-birds-5 {
+		width: 3.367em;
+		height: 5.067em;
+		background-size: cover;
+		top: 8.333em;
+		right: 6.389em;
+	}
+	&__items-birds-6 {
+		width: 5.278em;
+		height: 7.444em;
+		background-size: cover;
+		top: 10.111em;
+		right: 10.111em;
+	}
+	&__items-birds-7 {
+		width: 3.667em;
+		height: 5.167em;
+		background-size: cover;
+		top: 17.556em;
+		right: 11.167em;
+	}
+	&__items-birds-8 {
+		width: 5.611em;
+		height: 7.944em;
+		background-size: cover;
+		top: 21.278em;
+		right: 12.611em;
+	}
+	&__items-diamond-1,
+	&__items-diamond-2,
+	&__items-diamond-3,
+	&__items-diamond-4 {
+		position: absolute;
+		background: url(../images/step-1/diamond.svg) center no-repeat;
+		background-size: cover;
+		animation: splashes 3s linear infinite alternate;
+	}
+	&__items-diamond-1 {
+		width: 4.778em;
+		height: 3.833em;
+		background-size: cover;
+		left: 1.222em;
+		top: 2.611em;
+		animation-delay: 1s;
+	}
+	&__items-diamond-2 {
+		width: 3.722em;
+		height: 3.000em;
+		background: url(../images/step-1/diamond-2.svg) center no-repeat;
+		background-size: cover;
+		left: 2.167em;
+		bottom: 15.444em;
+		animation-delay: 2s;
+	}
+	&__items-diamond-3 {
+		background: url(../images/step-1/diamond-1.svg) center no-repeat;
+		background-size: cover;
+		right: 1.722em;
+		top: 4.278em;
+		width: 7.833em;
+		height: 7.833em;
+		animation-delay: 3s;
+	}
+	&__items-diamond-4 {
+		background-size: cover;
+		right: 3.000em;
+		bottom: 0.667em;
+		width: 6.278em;
+		height: 5.056em;
+		animation-delay: 1s;
+	}
+	&__items-snail-1,
+	&__items-snail-2,
+	&__items-snail-3,
+	&__items-snail-4,
+	&__items-snail-5,
+	&__items-snail-6 {
+		position: absolute;
+		animation: bird 3s linear infinite alternate 2s;
+	}
+	&__items-snail-1 {
+		left: 1.944em;
+		top: 3.667em;
+		width: 9.500em;
+		height: 7.556em;
+		background: url(../images/step-1/snail.svg) center no-repeat;
+		background-size: cover;
+	}
+	&__items-snail-2 {
+		background: url(../images/step-1/snail-1.svg) center no-repeat;
+		background-size: cover;
+		width: 3.833em;
+		height: 4.167em;
+		top: 2.611em;
+		right: 5.111em;
+	}
+	&__items-snail-3 {
+		background: url(../images/step-1/snail.svg) center no-repeat;
+		background-size: cover;
+		width: 9.500em;
+		height: 7.556em;
+		bottom: 1.167em;
+		left: 2em;
+	}
+	&__items-snail-4 {
+		background: url(../images/step-1/snail-1.svg) center no-repeat;
+		background-size: cover;
+		width: 3.833em;
+		height: 4.167em;
+		left: 12.111em;
+		top: 21.000em;
+	}
+	&__items-snail-5 {
+		background: url(../images/step-3/snail.svg) center no-repeat;
+		background-size: cover;
+		width: 7.833em;
+		height: 7.333em;
+		right: 6.278em;
+		top: 4.611em;
+	}
+	&__items-snail-6 {
+		background: url(../images/step-3/snail-1.svg) center no-repeat;
+		background-size: cover;
+		width: 7.500em;
+		height: 5.889em;
+		left: 8.056em;
+		bottom: 15.889em;
+	}
+	&__items-smears {
+		position: absolute;
+		right: -17em;
+		top: 50%;
+		transform: translate(0,-50%);
+		background: url(../images/step-3/smears.svg) center no-repeat;
+		background-size: cover;
+		width: 35.333em;
+		height: 35.889em;
+		z-index: 1;
+	}
+}
+.step__items-label {
+	width: 6.667em;
+	height: 6.667em;
+	position: absolute;
+	background: url(../images/step-3/label.png) center no-repeat;
+	background-size: cover;
+	right: 1.278em;
+	top: 7em;
+	z-index: 5;
+}
+.step__items-bottle-ipad {
+	display: none;
+}

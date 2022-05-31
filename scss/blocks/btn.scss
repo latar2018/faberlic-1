@@ -1,0 +1,45 @@
+
+
+.btn1 {
+	cursor: pointer;
+	display: inline-block;
+	border: none;
+	background: transparent;
+	font-weight: 500;
+	font-size: 1.333em;
+	line-height: 100%;
+	text-align: center;
+	background: #D3FF1F;
+	border-radius: 2.778em;
+	padding: 1.2em 0;
+	
+}
+.btn2 {
+	cursor: pointer;
+	display: inline-block;
+	border: none;
+	background: transparent;
+	text-align: center;
+	font-weight: 500;
+	font-size: 1.333em;
+	line-height: 100%;
+	color: #000000;
+	padding: 1em;
+	width: 11.944em;
+	background: #FFFFFF;
+	border-radius: 1.889em;
+	position: relative;
+	&::after {
+		content: "";
+		background: url(../images/step-1/btn-img.svg) center no-repeat;
+		background-size: cover;
+		width: 5.667em;
+		height: 2.278em;
+		position: absolute;
+		right: -3em;
+		top: 0;
+	}
+}
+.btn__440 {
+	width: 18.344em;
+}

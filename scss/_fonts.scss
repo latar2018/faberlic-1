@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+ 
+
+
+@font-face
+{
+    font-family: 'Gotham';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Gotham-Book.woff') format('woff'),
+    url('../fonts/Gotham-Book.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Gotham';
+    font-weight: 400;
+    font-style: italic;
+
+    font-display: swap;
+    src: url('../fonts/Gotham-BookItalic.woff') format('woff'),
+    url('../fonts/Gotham-BookItalic.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Gotham';
+    font-weight: 500;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Gotham-Medium.woff') format('woff'),
+    url('../fonts/Gotham-Medium.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Gotham';
+    font-weight: 500;
+    font-style: italic;
+
+    font-display: swap;
+    src: url('../fonts/Gotham-MediumItalic.woff') format('woff'),
+    url('../fonts/Gotham-MediumItalic.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Gotham-Bold.woff') format('woff'),
+    url('../fonts/Gotham-Bold.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-style: italic;
+
+    font-display: swap;
+    src: url('../fonts/Gotham-BoldItalic.woff') format('woff'),
+    url('../fonts/Gotham-BoldItalic.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Gotham';
+    font-weight: 900;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/Gotham-Black.woff') format('woff'),
+    url('../fonts/Gotham-Black.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Gotham';
+    font-weight: 900;
+    font-style: italic;
+
+    font-display: swap;
+    src: url('../fonts/Gotham-BlackItalic.woff') format('woff'),
+    url('../fonts/Gotham-BlackItalic.ttf') format('truetype');
+}

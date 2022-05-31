@@ -1,0 +1,33 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+@import '../css/style.fab.css';
+
+
+body {
+	a {
+		 text-decoration: none;
+	}
+	font-family: "Gotham";
+	font-weight: 400;
+	line-height: 1.5;
+	overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+@import "blocks/header.scss";
+@import "blocks/btn.scss";
+@import "blocks/main.scss";
+@import "blocks/steps.scss";
+@import "blocks/makeup.scss";
+@import "blocks/card.scss";
+@import "blocks/footer.scss";
+@import "blocks/media.scss";

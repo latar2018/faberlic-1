@@ -1,0 +1,159 @@
+.card {
+	background: #FFD0FB;
+	position: relative;
+	padding: 0 0 7.444em;
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		
+	}
+	&__item-photo {
+		width: 63.889em;
+		position: relative;
+	}
+	&__item-photo-1 {
+		width: 51.944em;
+		position: relative;
+	}
+	&__item {
+		width: 43.333em;
+		padding: 8.889em 11.278em 0 3.389em;
+	}
+	&__item-1 {
+		padding: 8.889em 12.333em 0 15.611em;
+		width: 54.722em;
+	}
+	&__item-block {
+		padding: 0;
+	}
+	&__item-bottle {
+	}
+
+	&__item-img {
+		position: absolute;
+		width: 43.944em;
+		height: 52.667em;
+		object-fit: cover;
+		left: 19.833em;
+		top: -2.5em;
+		
+	}
+	&__item-img-1 { 
+		width: 42.222em;
+		height: 52.333em;
+		left: 0;
+		top: -2.5em;
+		z-index: 2;
+	}
+	&__item-img-2 {
+		z-index: 1;
+	}
+	&__item-bottle {
+		position: absolute;
+		background: url(../images/4/bottle.png) center no-repeat;
+		background-size: cover;
+		width: 29.444em;
+		height: 34.778em;
+		left: 3em;
+    top: 9em;
+		z-index: 1;
+	}
+	&__item-bottle-1 {
+		position: absolute;
+		background: url(../images/4/bottle-1.png) center no-repeat;
+		background-size: cover;
+		width: 14.722em;
+		height: 37.778em;
+		left: 12em;
+    top: 3em;
+		z-index: 10;
+	}
+	&__item-cloud-1,
+	&__item-cloud-2,
+	&__item-cloud-3,
+	&__item-cloud-4,
+	&__item-cloud-5,
+	&__item-cloud-6,
+	&__item-cloud-7,
+	&__item-cloud-8 {
+		position: absolute;
+		z-index: 2;
+		animation: bird 3s linear infinite alternate 2s;
+	}
+	&__item-cloud-1 {
+		background: url(../images/4/cloud-1.png) center no-repeat;
+		background-size: cover;
+		width: 5em;
+		height: 3.2em;
+		left: 1.944em;
+		top: 11.556em;
+
+	}
+	&__item-cloud-2 {
+		background: url(../images/4/cloud-2.png) center no-repeat;
+		background-size: cover;
+		width: 3.833em;
+		height: 2.644em;
+		right: 14.722em;
+		top: 0.722em;
+		animation-delay: 1s;
+	}
+	&__item-cloud-3 {
+		background: url(../images/4/cloud-3.png) center no-repeat;
+		background-size: cover;
+		width: 10.667em;
+		height: 7.500em;
+		left: 4.944em;
+		top: 15.111em;
+		animation-delay: 2s;
+	}
+	&__item-cloud-4 {
+		background: url(../images/4/cloud-2.png) center no-repeat;
+		background-size: cover;
+		width: 3.833em;
+		height: 2.644em;
+		left: 12.944em;
+		top: 18.111em;
+		animation-delay: 1s;
+	}
+	&__item-cloud-5 {
+		background: url(../images/4/cloud-5.png) center no-repeat;
+		background-size: cover;
+		width: 5em;
+		height: 3.2em;
+		left: 9.944em;
+		bottom: 9.111em;
+	}
+	&__item-cloud-6 {
+		background: url(../images/4/cloud-4.png) center no-repeat;
+		background-size: cover;
+		width: 3.633em;
+		height: 2.744em;
+		bottom: 4.389em;
+		left: 7.333em;
+		animation-delay: 1s;
+	}
+	&__item-cloud-7 {
+		background: url(../images/4/cloud-3.png) center no-repeat;
+		background-size: cover;
+		width: 6.611em;
+		height: 4.578em;
+		right: 13.389em;
+		top: 16.778em;
+		animation-delay: 3s;
+	}
+	&__item-cloud-8 {
+		background: url(../images/4/cloud-2.png) center no-repeat;
+		background-size: cover;
+		width: 4.733em;
+		height: 3.344em;
+		right: 14.189em;
+		bottom: 9.333em;
+		animation-delay: 3s;
+	}
+	
+}
+.card-2 {
+	background: #FFC2D2;
+}
+

@@ -1,0 +1,136 @@
+.makeup {
+	background: linear-gradient(180deg, #FE91A6 0%, #F6ABD1 81.25%);
+	padding: 12.444em 0 12.611em 0;
+	position: relative;
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-left: 15.278em;
+		padding-right: 16.111em;
+	}
+
+	&__item {
+		position: relative;
+	}
+
+	&__item-title {
+		font-size: 4.444em;
+		line-height: 130%;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		font-weight: 700;
+		width: 6em;
+	}
+
+	&__item-block {
+		right: -24em;
+		bottom: -3em;
+	}
+
+	&__item-text {
+		position: relative;
+		font-weight: 500;
+		font-size: 2em;
+		line-height: 140%;
+		color: #D3FF1F;
+		width: 12em;
+		z-index: 1;
+	}
+	&__item-arrow {
+		position: absolute;
+		right: 0.722em;
+		bottom: -2em;
+		width: 13.611em;
+		height: 12.556em;
+	}
+	&__item-misc {
+		position: absolute;
+		width: 5.944em;
+		height: 5.944em;
+		background: url(../images/4/Misc.svg) center no-repeat;
+		background-size: cover;
+		right: -1em;
+		top: -3em;
+		z-index: 0;
+	}
+
+	&__item-smile {
+		position: absolute;
+		width: 4.389em;
+		height: 2.222em;
+		background: url(../images/4/smile.svg) center no-repeat;
+		background-size: cover;
+		right: 0;
+		bottom: -2em;
+	}
+	&__cloud-ping-1,
+	&__cloud-ping-2,
+	&__cloud-png-1 {
+		position: absolute;
+		object-fit: cover;
+		width: 40.556em;
+		height: 22.611em;
+	}
+	&__cloud-ping-1 {
+		right: -14em;
+		top: 0em;
+		
+	}
+	&__cloud-ping-2 {
+		right: 2em;
+		bottom: -12em;
+		z-index: 2;
+		
+	}
+	&__cloud-png-1 {
+		left: -10em;
+		bottom: -12em;
+		z-index: 2;
+		transform: matrix(-1, 0, 0, 1, 0, 0);
+	}
+}
+.makeup-oval {
+	width: 15.778em;
+	height: 13.222em;
+}
+.makeup-logo {
+	width: 14.556em;
+	height: 10.778em;
+	object-fit: cover;
+	bottom: .5em;
+}
+.makeup-opacity {
+	width: 51.389em;
+	height: 33.333em;
+	left: 5em;
+	top: -12em
+}
+.makeup-arrow {
+	stroke-dasharray: 991;
+	stroke-dashoffset: 991;
+	animation: m-arrow-2 8s linear 5s;
+	animation-fill-mode: forwards;
+}
+.makeup-arrow-1 {
+	stroke-dasharray: 170;
+  stroke-dashoffset: 170;
+	animation: m-arrow-1 4s linear 10s;
+	animation-fill-mode: forwards;
+}
+@keyframes m-arrow-1 {
+	0% {
+		stroke-dashoffset: 170;
+	}
+	100% {
+		stroke-dashoffset: 0;
+	}
+}
+@keyframes m-arrow-2 {
+	0% {
+		stroke-dashoffset: 991;
+	}
+	100% {
+		stroke-dashoffset: 0;
+	}
+}
